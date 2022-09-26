@@ -1,0 +1,26 @@
+.debug {
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+:root{
+    --blue: #006cfa;
+    --green: greenyellow;
+    --white: #fff;
+}
+
+/* GENERAL */
+.text-box {
+    background: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--white);
+    text-align: center;
+    line-height: 40px;
+    min-height: 40px;
+}
+
+.greenyellow-box {
+    background-color: var(--green);
+    border: 1px solid var(--blue);
+    align-self: center;
+}
